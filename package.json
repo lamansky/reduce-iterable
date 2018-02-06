@@ -1,0 +1,36 @@
+{
+  "name": "reduce-iterable",
+  "version": "1.0.0",
+  "description": "Applies a function to iterated values to reduce them to a single value.",
+  "keywords": [
+    "reduce",
+    "iterable",
+    "iterator"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/reduce-iterable",
+  "repository": "lamansky/reduce-iterable",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "add-counter": "^1.0.0",
+    "sbo": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
